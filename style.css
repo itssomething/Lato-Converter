@@ -5,6 +5,45 @@
     wrap: hard;
 }
 #output{
+    position: relative;
     font-family: Lato;
     color: red;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.col1-2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-top: 4px;
+    font-family: Lato;
+    background-color: #ffc845;
+    color: white;
+    padding: 20px;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    margin-right: 2px;
+}
+.item2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin-top: 4px;
+    font-family: Lato;
+    background-color: #52565e;
+    color: white;
+    padding: 20px;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    margin-left: 2px;
 }
