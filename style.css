@@ -11,15 +11,18 @@
 }
 .grid-container{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 25% 25% 25% 25% ;
 }
 .col1-2{
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: 3;
+}
+.col2{
+    grid-column-start: 3;
 }
 .item1{
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: 3;
     margin-top: 4px;
     font-family: Lato;
     background-color: #ffc845;
