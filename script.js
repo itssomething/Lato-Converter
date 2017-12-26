@@ -3,8 +3,8 @@ function getText(){
     document.getElementById('output').innerHTML = output;
 }
 function copyFunction() {
-  var copyText = document.getElementById("output");
+  var copyText = document.getElementById('output');
   copyText.select();
-  document.execCommand("Copy");
-  alert("Copied the text");
+  document.execCommand('Copy');
+  alert('Copied the text');
 }
